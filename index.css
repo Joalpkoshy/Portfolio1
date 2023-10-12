@@ -1,0 +1,279 @@
+*{
+    font-family: 'Acme', sans-serif;
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Croissant One', cursive;
+    font-family: 'Fjalla One', sans-serif;
+}
+/* header part */
+
+.logo {
+    width: 120px;
+    margin-left: 40px;
+    margin-top: 25px;
+}
+
+.head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    margin-right: 60px;
+    display: flex;
+    list-style: none;
+}
+
+.links {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    margin-right: 50px;
+    letter-spacing: 5px;
+}
+
+.links:hover {
+    color: crimson;
+}
+
+/* HOME PART */
+
+#home {
+    margin-top: 300px;
+}
+
+.title {
+    margin-left: 5%;
+    margin-top: -10%;
+}
+
+.title-h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.sec-name{
+    color: cornflowerblue;
+}
+
+.download{
+    text-decoration: none;
+    background-color: rgb(17, 17, 17);
+    padding: 10px 20px;
+    font-weight: bold;
+    margin: 30px 0px;
+    display: inline-block;
+    border-radius: 5px;
+    color: white;
+}
+
+/* image section */
+
+.imgs{
+    position: absolute;
+    width: 45%;
+    height: 80%;
+    bottom: 0px;
+    right: 30px;
+}
+
+.imgs img{
+    position: absolute;
+    height: 100%;
+    left: 50%;
+    bottom: 0px;
+    transform: translate(-50%);
+    transition: bottom 1s, left 1s;
+}
+
+.imgs:hover #shape{
+    bottom: 70px;
+}
+
+.imgs:hover #girl{
+    left: 40%;
+}
+
+/* ABOUT PART */
+
+#about{
+    margin-top: 200px;
+}
+
+
+.heading{
+    margin-left: 52%;
+    margin-top: 50px;
+}
+
+.heading h4{
+    color: rgb(15, 158, 110);
+}
+
+.about-content{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-top: 30px;
+    margin-right: 10px;
+    gap: 2rem;
+    text-align: justify;
+}
+
+.about-content img{
+    margin-top: -75px;
+}
+
+/* skills section  */
+
+#skills{
+    margin-top: 50px;
+    margin-right: 100px;
+}
+
+
+.heading span{
+    color: rgb(15, 158, 110);
+}
+
+
+.percentage{
+    margin-left: 60px;
+    margin-top: 100px;
+}
+
+.html .per{
+    padding-left: 485px;
+}
+.html .orange{
+    width: 530px;
+    height: 5px;
+    background-color: orange;
+    border-radius: 2px;
+    margin-top: -5px;
+}
+.html .black{
+    width: 550px;
+    height: 5px;
+    background-color: black;
+    border-radius: 2px;
+}
+
+.css .per{
+    padding-left: 495px;
+}
+
+.css .orange{
+    width: 500px;
+    height: 5px;
+    background-color: orange;
+    border-radius: 2px;
+    margin-top: -5px;
+}
+.css .black{
+    width: 550px;
+    height: 5px;
+    background-color: black;
+    border-radius: 2px;
+}
+
+.js .per{
+    padding-left: 502px;
+}
+
+.js .orange{
+    width: 510px;
+    height: 5px;
+    background-color: orange;
+    border-radius: 2px;
+    margin-top: -5px;
+}
+.js .black{
+    width: 550px;
+    height: 5px;
+    background-color: black;
+    border-radius: 2px;
+}
+
+.react .per{
+    padding-left: 482px;
+}
+
+.react .orange{
+    width: 490px;
+    height: 5px;
+    background-color: orange;
+    border-radius: 2px;
+    margin-top: -5px;
+}
+.react .black{
+    width: 550px;
+    height: 5px;
+    background-color: black;
+    border-radius: 2px;
+}
+
+.imgskill{
+    margin-left: 660px;
+    margin-top: -300px;
+}
+
+.cont-head{
+    text-align: center;
+    margin-top: 15%;
+}
+
+.cont-head span{
+    color: rgb(15, 158, 110);
+}
+
+.six-icons{
+    display:flex;
+    justify-content: center;
+    margin-top: 3%;
+    align-items: center;
+}
+
+.icons, .up-arrow{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons i{
+    font-size: 30px;
+    color: black;
+    padding-left: 20px;
+}
+
+.icons:hover{
+    background-image: linear-gradient(to bottom right ,yellow,red);
+}
+
+.icons:hover i{
+    color: aliceblue;
+    animation: shake 0.75s;
+}
+
+@keyframes shake{
+    10%{
+        transform: rotate(15deg);
+    }
+    20%{
+        transform: rotate(-15deg);
+    }
+}
+
+.footer{
+    margin: 2rem 0px;
+    font-weight: bold;
+    text-align: center;
+    justify-content: center;
+}
+
+.footer p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
